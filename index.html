@@ -10,6 +10,58 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <style>
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .contact-item {
+            margin: 20px 0;
+            max-width: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    
+        .contact-item i {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+    
+        .contact-item h4 {
+            margin-bottom: 10px;
+        }
+    
+        .contact-item p {
+            margin: 0;
+            line-height: 1.5;
+        }
+    
+        .contact-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+    
+        @media (min-width: 768px) {
+            .contact-info {
+                flex-direction: row;
+                justify-content: center;
+            }
+    
+            .contact-item {
+                margin: 0 20px;
+            }
+        }
+    </style>
+
 </head>
 <body>
     <!-- Navigation Bar -->
