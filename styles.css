@@ -327,6 +327,7 @@ html {
 }
 
 .portfolio-overlay {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -342,6 +343,11 @@ html {
     transition: opacity 0.3s;
     text-align: center;
 }
+
+.blur {
+    filter: blur(5px); /* Adjust the blur radius as needed */
+}
+
 
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
