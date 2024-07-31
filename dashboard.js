@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('header nav ul li a');
     const sections = document.querySelectorAll('.main-content section');
